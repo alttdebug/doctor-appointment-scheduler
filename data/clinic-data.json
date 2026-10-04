@@ -1,0 +1,40 @@
+{
+  "doctors": [
+    { "id": "doc-001", "name": "Dr. Aisha Rahman", "specialty": "General Medicine" },
+    { "id": "doc-002", "name": "Dr. Daniel Smith", "specialty": "Cardiology" },
+    { "id": "doc-003", "name": "Dr. Priya Sharma", "specialty": "Dermatology" },
+    { "id": "doc-004", "name": "Dr. Elena Costa", "specialty": "Pediatrics" }
+  ],
+  "appointments": [
+    {
+      "id": "apt-1001",
+      "patientName": "Mia Johnson",
+      "patientPhone": "+1 (555) 101-2345",
+      "doctorId": "doc-001",
+      "doctorName": "Dr. Aisha Rahman",
+      "date": "2026-10-05",
+      "time": "09:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "apt-1002",
+      "patientName": "Oliver Brown",
+      "patientPhone": "+1 (555) 221-8765",
+      "doctorId": "doc-002",
+      "doctorName": "Dr. Daniel Smith",
+      "date": "2026-10-06",
+      "time": "11:30",
+      "status": "scheduled"
+    },
+    {
+      "id": "apt-1003",
+      "patientName": "Sophia Lee",
+      "patientPhone": "+1 (555) 772-9981",
+      "doctorId": "doc-003",
+      "doctorName": "Dr. Priya Sharma",
+      "date": "2026-10-07",
+      "time": "14:00",
+      "status": "scheduled"
+    }
+  ]
+}
